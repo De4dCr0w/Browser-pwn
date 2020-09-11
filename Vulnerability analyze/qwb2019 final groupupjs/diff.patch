@@ -1,0 +1,13 @@
+diff --git a/src/compiler/machine-operator-reducer.cc b/src/compiler/machine-operator-reducer.cc
+index a6a8e87cf4..164ab44fab 100644
+--- a/src/compiler/machine-operator-reducer.cc
++++ b/src/compiler/machine-operator-reducer.cc
+@@ -291,7 +291,7 @@ Reduction MachineOperatorReducer::Reduce(Node* node) {
+       if (m.left().Is(kMaxUInt32)) return ReplaceBool(false);  // M < x => false
+       if (m.right().Is(0)) return ReplaceBool(false);          // x < 0 => false
+       if (m.IsFoldable()) {                                    // K < K => K
+-        return ReplaceBool(m.left().Value() < m.right().Value());
++        return ReplaceBool(m.left().Value() < m.right().Value() + 1);
+       }
+       if (m.LeftEqualsRight()) return ReplaceBool(false);  // x < x => false
+       if (m.left().IsWord32Sar() && m.right().HasValue()) {

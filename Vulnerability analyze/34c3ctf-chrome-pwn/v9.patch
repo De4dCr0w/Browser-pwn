@@ -1,0 +1,36 @@
+diff --git a/src/compiler/redundancy-elimination.cc b/src/compiler/redundancy-elimination.cc
+index 3a40e8d..cb51acc 100644
+--- a/src/compiler/redundancy-elimination.cc
++++ b/src/compiler/redundancy-elimination.cc
+@@ -5,6 +5,8 @@
+ #include "src/compiler/redundancy-elimination.h"
+ 
+ #include "src/compiler/node-properties.h"
++#include "src/compiler/simplified-operator.h"
++#include "src/objects-inl.h"
+ 
+ namespace v8 {
+ namespace internal {
+@@ -23,6 +25,7 @@ Reduction RedundancyElimination::Reduce(Node* node) {
+     case IrOpcode::kCheckHeapObject:
+     case IrOpcode::kCheckIf:
+     case IrOpcode::kCheckInternalizedString:
++    case IrOpcode::kCheckMaps:
+     case IrOpcode::kCheckNumber:
+     case IrOpcode::kCheckReceiver:
+     case IrOpcode::kCheckSmi:
+@@ -129,6 +132,14 @@ bool IsCompatibleCheck(Node const* a, Node const* b) {
+     if (a->opcode() == IrOpcode::kCheckInternalizedString &&
+         b->opcode() == IrOpcode::kCheckString) {
+       // CheckInternalizedString(node) implies CheckString(node)
++    } else if (a->opcode() == IrOpcode::kCheckMaps &&
++               b->opcode() == IrOpcode::kCheckMaps) {
++      // CheckMaps are compatible if the first checks a subset of the second.
++      ZoneHandleSet<Map> const& a_maps = CheckMapsParametersOf(a->op()).maps();
++      ZoneHandleSet<Map> const& b_maps = CheckMapsParametersOf(b->op()).maps();
++      if (!b_maps.contains(a_maps)) {
++        return false;
++      }
+     } else {
+       return false;
+     }
