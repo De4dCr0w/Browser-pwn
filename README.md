@@ -191,3 +191,11 @@ https://mp.weixin.qq.com/s/pGvnLJouphJqxQ2zPDAcUw
 https://eternalsakura13.com/2018/04/19/js_crash_debug/
 
 https://webkit.org/blog/10308/speculation-in-javascriptcore/
+
+Firefox Vulnerability Research：https://blog.exodusintel.com/2020/10/20/firefox-vulnerability-research/
+
+
+
+Edge 漏洞研究
+
+https://microsoftedge.github.io/edgevr/posts/Introducing-Edge-Vulnerability-Research/
