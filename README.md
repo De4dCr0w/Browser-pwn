@@ -52,6 +52,12 @@ https://pwnfirstsear.ch/2020/04/20/plaidctf2020-mojo.html
 
 https://trungnguyen1909.github.io/blog/post/PlaidCTF2020/pwn.js
 
+ductf2020 pwn-or-web v8 challenge writeup 
+
+https://seb-sec.github.io/2020/09/28/ductf2020-pwn-or-web.html
+
+
+
 
 
 ## v8相关资料
@@ -102,6 +108,14 @@ v8 中文分析文章（知乎专栏）
 
 https://zhuanlan.zhihu.com/v8core
 
+V8 脚本引擎 Slack Tracking 机制的介绍
+
+https://v8.dev/blog/slack-tracking
+
+Chromium 浏览器的本地数据加密机制分析
+
+https://textslashplain.com/2020/09/28/local-data-encryption-in-chromium/
+
 
 
 ## 沙箱逃逸
@@ -146,3 +160,34 @@ http://couplee.wang/wnagzihxa1n.html
 
 
 
+## 工具
+
+Chromium IPC Sniffer - 有研究员开发了一个监控 Chromium 浏览器命名管道通信消息的工具
+
+https://github.com/tomer8007/chromium-ipc-sniffer
+
+在线浮点数转换：
+
+http://www.binaryconvert.com/convert_double.html#
+
+
+
+## Fuzzing
+
+https://chromium.googlesource.com/chromium/src/+/master/testing/libfuzzer/README.md
+
+
+
+
+
+## JSC 相关资料
+
+
+
+https://mp.weixin.qq.com/s/pGvnLJouphJqxQ2zPDAcUw
+
+[http://turingh.github.io/2016/12/03/CVE-2016-4622%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0/](http://turingh.github.io/2016/12/03/CVE-2016-4622调试笔记/)
+
+https://eternalsakura13.com/2018/04/19/js_crash_debug/
+
+https://webkit.org/blog/10308/speculation-in-javascriptcore/
