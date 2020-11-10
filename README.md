@@ -232,14 +232,26 @@ JavaScript engine fundamentals: Shapes and Inline Caches
 
 https://mathiasbynens.be/notes/shapes-ics
 
+WebKit Exploitation
+
+https://cyberweek.ae/materials/2019/D4%20TRACK%203%20-%20Introduction%20to%20WebKit%20Exploitation%20-%20Prateek%20Gianchandani.pdf
+
+Attacking Client-Side JIT Compilers (v2) Samuel Groß (@5aelo)
+
+https://saelo.github.io/presentations/blackhat_us_18_attacking_client_side_jit_compilers.pdf
+
+Just-in-time Compiler in JavaScriptCore - browser 0x03
+
+https://liveoverflow.com/just-in-time-compiler-in-javascriptcore-browser-0x03/
 
 
-### 火狐浏览器漏洞研究
+
+## 火狐浏览器漏洞研究
 
 Firefox Vulnerability Research：https://blog.exodusintel.com/2020/10/20/firefox-vulnerability-research/
 
 
 
-### Edge 漏洞研究
+## Edge 漏洞研究
 
 https://microsoftedge.github.io/edgevr/posts/Introducing-Edge-Vulnerability-Research/
