@@ -38,6 +38,18 @@ firefox pwn 入门 - CVE-2019-11707 复现笔记
 
 https://www.anquanke.com/post/id/206558
 
+Chrome 浏览器 textbook UAF 漏洞的利用方法分析
+
+https://securitylab.github.com/research/CVE-2020-6449-exploit-chrome-uaf
+
+INVERTING YOUR ASSUMPTIONS: A GUIDE TO JIT COMPARISONS
+
+https://www.thezdi.com/blog/2018/4/12/inverting-your-assumptions-a-guide-to-jit-comparisons
+
+Actions Speak Browser Than Words (Exploiting n-days for fun and profit) - Max Van Amerongen
+
+https://www.youtube.com/watch?v=L7aiFKDg0Jk
+
 
 
 ## CTF chrome pwn
@@ -116,6 +128,10 @@ Chromium 浏览器的本地数据加密机制分析
 
 https://textslashplain.com/2020/09/28/local-data-encryption-in-chromium/
 
+Chrome V8让你更懂JavaScript
+
+https://mp.weixin.qq.com/s/E-c9gsk-kxIwnwY4R5z_3Q
+
 
 
 ## 沙箱逃逸
@@ -158,6 +174,8 @@ http://couplee.wang/wnagzihxa1n.html
 
 [https://eternalsakura13.com/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/](https://eternalsakura13.com/categories/浏览器/)
 
+https://thomasking2014.com/
+
 
 
 ## 工具
@@ -176,13 +194,17 @@ http://www.binaryconvert.com/convert_double.html#
 
 https://chromium.googlesource.com/chromium/src/+/master/testing/libfuzzer/README.md
 
+Reproducing libFuzzer and AFL crashes：
+
+https://chromium.googlesource.com/chromium/src/+/master/testing/libfuzzer/reproducing.md
+
 
 
 
 
 ## JSC 相关资料
 
-
+基础知识及环境搭建：https://www.anquanke.com/post/id/183804
 
 https://mp.weixin.qq.com/s/pGvnLJouphJqxQ2zPDAcUw
 
@@ -192,10 +214,32 @@ https://eternalsakura13.com/2018/04/19/js_crash_debug/
 
 https://webkit.org/blog/10308/speculation-in-javascriptcore/
 
+http://phrack.org/papers/attacking_javascript_engines.html
+
+Thinking outside the JIT Compiler: Understanding and bypassing StructureID Randomization with generic and old-school methods：
+
+https://i.blackhat.com/eu-19/Thursday/eu-19-Wang-Thinking-Outside-The-JIT-Compiler-Understanding-And-Bypassing-StructureID-Randomization-With-Generic-And-Old-School-Methods.pdf
+
+All About JavaScriptCore’s Many Compilers
+
+http://www.filpizlo.com/slides/pizlo-splash2018-jsc-compiler-slides.pdf
+
+WEBKIT JAVASCRIPTCORE的特殊调试技巧：
+
+https://dwfault.github.io/2019/12/20/WebKit%20JavaScriptCore%E7%9A%84%E7%89%B9%E6%AE%8A%E8%B0%83%E8%AF%95%E6%8A%80%E5%B7%A7/
+
+JavaScript engine fundamentals: Shapes and Inline Caches
+
+https://mathiasbynens.be/notes/shapes-ics
+
+
+
+### 火狐浏览器漏洞研究
+
 Firefox Vulnerability Research：https://blog.exodusintel.com/2020/10/20/firefox-vulnerability-research/
 
 
 
-Edge 漏洞研究
+### Edge 漏洞研究
 
 https://microsoftedge.github.io/edgevr/posts/Introducing-Edge-Vulnerability-Research/
