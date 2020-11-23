@@ -2,6 +2,14 @@
 
 Include CVE vulnerability analyze， ctf pwn and documents for Browser-pwn
 
+## awesome-browser-exploit
+
+https://github.com/Escapingbug/awesome-browser-exploit
+
+谷歌安全团队每季度更新的动态
+
+https://www.chromium.org/Home/chromium-security/quarterly-updates
+
 
 
 ## 漏洞分析
@@ -49,6 +57,22 @@ https://www.thezdi.com/blog/2018/4/12/inverting-your-assumptions-a-guide-to-jit-
 Actions Speak Browser Than Words (Exploiting n-days for fun and profit) - Max Van Amerongen
 
 https://www.youtube.com/watch?v=L7aiFKDg0Jk
+
+CVE-2020-16009: v8 新 0day
+
+https://chromium.googlesource.com/v8/v8.git/+/3ba21a17ce2f26b015cc29adc473812247472776%5E%21/#F3
+
+https://cxsecurity.com/issue/WLB-2020110122
+
+v8 issue2106  map deprecation相关漏洞
+
+https://bugs.chromium.org/p/project-zero/issues/detail?id=2106
+
+谷歌收集的2020年在野0day信息文档
+
+https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1869060786
+
+
 
 
 
@@ -131,6 +155,24 @@ https://textslashplain.com/2020/09/28/local-data-encryption-in-chromium/
 Chrome V8让你更懂JavaScript
 
 https://mp.weixin.qq.com/s/E-c9gsk-kxIwnwY4R5z_3Q
+
+v8中WebAssembly编译过程分析
+
+https://v8.dev/docs/wasm-compilation-pipeline
+
+对chrome中Site Isolation实现的分析
+
+https://microsoftedge.github.io/edgevr/posts/deep-dive-into-site-isolation-part-1/
+
+v8 cve-2020-16013 commit
+
+https://github.com/v8/v8/commit/27900f17b845b8881d8328ef70b1bccba8984bbc
+
+Modern attacks on the Chrome browser : optimizations and deoptimizations
+
+https://doar-e.github.io/blog/2020/11/17/modern-attacks-on-the-chrome-browser-optimizations-and-deoptimizations/
+
+
 
 
 
@@ -244,14 +286,42 @@ Just-in-time Compiler in JavaScriptCore - browser 0x03
 
 https://liveoverflow.com/just-in-time-compiler-in-javascriptcore-browser-0x03/
 
+webkit中引入了更强的JIT-Caging机制：
+
+https://github.com/WebKit/webkit/commit/2ffeeff4dfb86a74ae695dea8671fccc423559ad
+https://trac.webkit.org/search?q=JIT-caging
+
+JavaScriptCore Internals Part I: Tracing JavaScript Source to Bytecode
+
+https://zon8.re/posts/jsc-internals-part1-tracing-js-source-to-bytecode/
+
+
+
 
 
 ## 火狐浏览器漏洞研究
 
 Firefox Vulnerability Research：https://blog.exodusintel.com/2020/10/20/firefox-vulnerability-research/
 
+利用 Firefox 浏览器 WebAssembly 的漏洞实现 content process 的代码执行
+
+http://blog.exodusintel.com/2020/11/10/firefox-vulnerability-research-part-2/
+
+maxpl0it关于IE以及Firefox n day的利用过程分析：
+
+https://www.youtube.com/watch?v=L7aiFKDg0Jk
+
+firfox漏洞研究文章系列第二篇
+
+https://blog.exodusintel.com/2020/11/10/firefox-vulnerability-research-part-2/
+
 
 
 ## Edge 漏洞研究
 
 https://microsoftedge.github.io/edgevr/posts/Introducing-Edge-Vulnerability-Research/
+
+Edge 浏览器 Site Isolation 保护机制分析
+
+https://microsoftedge.github.io/edgevr/posts/deep-dive-into-site-isolation-part-1/
+
