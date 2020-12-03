@@ -72,7 +72,9 @@ https://bugs.chromium.org/p/project-zero/issues/detail?id=2106
 
 https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1869060786
 
+v8 CVE-2020-16013漏洞commit：
 
+https://github.com/v8/v8/commit/633f67caa6d0a126487a489c240ed86a59b2b291
 
 
 
@@ -172,7 +174,9 @@ Modern attacks on the Chrome browser : optimizations and deoptimizations
 
 https://doar-e.github.io/blog/2020/11/17/modern-attacks-on-the-chrome-browser-optimizations-and-deoptimizations/
 
+v8的gef插件，可以更好的支持指针压缩
 
+https://gist.github.com/lordidiot/1580ddc3474d8f017f2f7972a69727d2
 
 
 
@@ -295,7 +299,11 @@ JavaScriptCore Internals Part I: Tracing JavaScript Source to Bytecode
 
 https://zon8.re/posts/jsc-internals-part1-tracing-js-source-to-bytecode/
 
+WebKit浏览器中的存在多个安全漏洞：
 
+http://feedproxy.google.com/~r/feedburner/Talos/~3/jJcfZQFt0d4/vuln-spotlight-webkit-use-after-free-nov-2020.html
+
+ 
 
 
 
