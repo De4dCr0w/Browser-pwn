@@ -76,6 +76,12 @@ v8 CVE-2020-16013漏洞commit：
 
 https://github.com/v8/v8/commit/633f67caa6d0a126487a489c240ed86a59b2b291
 
+Issue 1104608: Security: LdaNamedProperty is generated for typed_array["4294967295"], which causes wrong inline cache and OOB access
+
+https://bugs.chromium.org/p/chromium/issues/detail?id=1104608
+
+
+
 
 
 ## CTF chrome pwn
