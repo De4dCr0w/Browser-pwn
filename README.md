@@ -80,7 +80,9 @@ Issue 1104608: Security: LdaNamedProperty is generated for typed_array["42949672
 
 https://bugs.chromium.org/p/chromium/issues/detail?id=1104608
 
+A tour of fuzzing in Chromium:
 
+https://www.youtube.com/watch?v=NI2w6eT8p-E
 
 
 
@@ -184,6 +186,12 @@ v8的gef插件，可以更好的支持指针压缩
 
 https://gist.github.com/lordidiot/1580ddc3474d8f017f2f7972a69727d2
 
+An Introduction to Speculative Optimization in V8
+
+https://ponyfoo.com/articles/an-introduction-to-speculative-optimization-in-v8
+
+
+
 
 
 ## 沙箱逃逸
@@ -264,8 +272,6 @@ https://mp.weixin.qq.com/s/pGvnLJouphJqxQ2zPDAcUw
 
 https://eternalsakura13.com/2018/04/19/js_crash_debug/
 
-https://webkit.org/blog/10308/speculation-in-javascriptcore/
-
 http://phrack.org/papers/attacking_javascript_engines.html
 
 Thinking outside the JIT Compiler: Understanding and bypassing StructureID Randomization with generic and old-school methods：
@@ -309,7 +315,13 @@ WebKit浏览器中的存在多个安全漏洞：
 
 http://feedproxy.google.com/~r/feedburner/Talos/~3/jJcfZQFt0d4/vuln-spotlight-webkit-use-after-free-nov-2020.html
 
- 
+Speculation in JavaScriptCore
+
+https://webkit.org/blog/10308/speculation-in-javascriptcore/
+
+ A few JSC tales
+
+https://iokit.racing/jsctales.pdf
 
 
 
